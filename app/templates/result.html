@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Analysis Result</h1>
+<p><strong>Predicted Disease:</strong> {{ prediction }}</p>
+<p><strong>Recommended Medication:</strong> {{ recommendation }}</p>
+<a href="/">Upload another report</a>
+{% endblock %}
