@@ -37,6 +37,18 @@ The Medical Report Analyzer is a Flask-based web application that allows users t
    git clone https://github.com/yourusername/medical-report-analyzer.git
    cd medical-report-analyzer
 
+ # Windows
+.env\Scripts\activate
+
+# macOS/Linux
+source .env/bin/activate
+# install requirements
+pip install -r requirements.txt
+# Run cmd
+python run.py
+
+
+
 ### Instructions for Use
 
 - Make sure to replace `yourusername` and your contact details with your actual GitHub username and email.
