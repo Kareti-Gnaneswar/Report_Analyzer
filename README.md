@@ -38,14 +38,18 @@ The Medical Report Analyzer is a Flask-based web application that allows users t
    cd medical-report-analyzer
 
  # Windows
-.env\Scripts\activate
+   ```bash
+   .env\Scripts\activate
 
 # macOS/Linux
-source .env/bin/activate
+   ```bash
+   source .env/bin/activate
 # install requirements
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 # Run cmd
-python run.py
+   ```bash
+   python run.py
 
 
 
