@@ -36,19 +36,17 @@ The Medical Report Analyzer is a Flask-based web application that allows users t
    ```bash
    git clone https://github.com/yourusername/medical-report-analyzer.git
    cd medical-report-analyzer
-
+   
  # Windows
    ```bash
    .env\Scripts\activate
 
-# macOS/Linux
-   ```bash
+ # macOS/Linux
    source .env/bin/activate
+
 # install requirements
-   ```bash
    pip install -r requirements.txt
 # Run cmd
-   ```bash
    python run.py
 
 
